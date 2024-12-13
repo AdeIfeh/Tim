@@ -1,4 +1,4 @@
-escribe('timba sign up page', () => {
+describe('timba sign up page', () => {
 
   it('sign up using premium', () => {
 
