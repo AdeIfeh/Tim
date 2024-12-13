@@ -1,4 +1,3 @@
-g
 
 describe('timba sign up page', () => {
 
