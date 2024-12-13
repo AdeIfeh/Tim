@@ -7,7 +7,7 @@ describe('timba sign up page', () => {
     cy.get('.chakra-input').type('lizzygal78@gmail.com') //entering work email
     cy.get('form > .chakra-stack > .chakra-button').click() //verifying the sign up for free is clickable
     
-    //verify the get started button under premium is visbile and clickable
+    //verify the get started button under premium is visible and clickable
     cy.get(':nth-child(3) > .chakra-button') //button is visible
     .click() //clickable
 
@@ -45,7 +45,7 @@ describe('timba sign up page', () => {
 
     //Select the number of users
     cy.get('.css-1chmejh > :nth-child(1) > .chakra-stack > :nth-child(3)')
-    .click() //to incraese the number
+    .click() //to increase the number
     cy.get('.css-1chmejh > :nth-child(1) > .chakra-stack > :nth-child(1)').click() //to reduce the number
 
     //Clicking on the Proceed button
